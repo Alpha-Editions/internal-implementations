@@ -1,7 +1,7 @@
-const container = document.getElementById('ucf-container');
+const ucfContainer = document.getElementById('ucf-container');
 
-if (container != null) {
+if (ucfContainer != null) {
     fetch('https://cdn.jsdelivr.net/gh/Alpha-Editions/internal-implementations@main/universal-corporate-footer/template.html').then(function(response) {
-        shadow.innerHTML = response.text();
+        ucfContainer.innerHTML = response.text();
     });
 }
