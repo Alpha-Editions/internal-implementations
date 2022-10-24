@@ -25,8 +25,8 @@ const ucf = `
             }
         </style>
         <div class="row">
-            <div class="col-12 d-flex" style="padding: 1.5rem 0 2rem 0;">
-                <a target="_blank" rel="noopener">
+            <div class="col-12 d-flex" style="padding-top: 1.5rem;">
+                <a target="_blank" rel="noopener" style="padding-bottom: 0;">
                     <img src="https://cdn.jsdelivr.net/gh/Alpha-Editions/internal-implementations@main/universal-corporate-footer/assets/alphaeditions.png" alt="" class="img-fluid" style="max-width: 250px;">
                 </a>
             </div>
